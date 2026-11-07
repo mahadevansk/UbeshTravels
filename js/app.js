@@ -167,12 +167,12 @@
   function updateDynamicPlaceholders(lang) {
     const config = window.UBESH_CONFIG || {};
 
-    // Base City placeholder
-    let baseCity = config.baseCityPlaceholder || "[CONFIRM BASE CITY / PICKUP AREA]";
-    if (lang === "ta" && config.baseCityPlaceholder_TA) {
-      baseCity = config.baseCityPlaceholder_TA;
-    } else if (lang === "hi" && config.baseCityPlaceholder_HI) {
-      baseCity = config.baseCityPlaceholder_HI;
+    // Base City (Confirmed: Madurai)
+    let baseCity = config.baseCity || config.baseCityPlaceholder || "Madurai";
+    if (lang === "ta") {
+      baseCity = config.baseCity_TA || config.baseCityPlaceholder_TA || "மதுரை";
+    } else if (lang === "hi") {
+      baseCity = config.baseCity_HI || config.baseCityPlaceholder_HI || "मदुरै";
     }
 
     document.querySelectorAll(".cfg-base-city").forEach(el => {

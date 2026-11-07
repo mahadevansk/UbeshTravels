@@ -95,7 +95,7 @@ const UBESH_TRANSLATIONS = {
     customSubtitle: "Every traveller and family has distinct schedules. Ubesh Travels designs custom itineraries around your requested places, temple timings, and travel pace.",
     customPickupTitle: "Doorstep Pickup by Prior Arrangement",
     customPickupDesc: "Pickup from your hotel, railway station, or bus stand can be scheduled by prior arrangement. We confirm your pickup point and exact timing in advance so you start your journey relaxed.",
-    customBaseCityNote: "Base City & Operational Area: Configured as [CONFIRM BASE CITY / PICKUP AREA]. Exact service perimeter will be clarified during your initial booking inquiry.",
+    customBaseCityNote: "Base City & Operational Hub: Madurai. Doorstep pickup from your hotel, railway station, or bus stand is available across Madurai and surrounding areas by prior arrangement.",
     customFlexibleTitle: "Travel at Your Own Pace",
     customFlexibleDesc: "No rigid itineraries or commercial pressure. Pause for quiet tea breaks, scenic viewpoints, or local dining whenever your group desires.",
 
@@ -291,7 +291,7 @@ const UBESH_TRANSLATIONS = {
     customSubtitle: "ஒவ்வொரு குடும்பத்தின் பயணத் தேவையும் மாறுபடும். உங்கள் நேர அட்டவணை மற்றும் விருப்பத்திற்கு ஏற்ப தனிப்பட்ட பயணத் திட்டத்தை உபேஷ் டிராவல்ஸ் அமைத்துத் தருகிறது.",
     customPickupTitle: "முன் ஏற்பாட்டின் பேரில் பிக்கப் வசதி",
     customPickupDesc: "உங்கள் தங்கும் விடுதி (Hotel), ரயில் நிலையம் அல்லது பேருந்து நிலையத்திலிருந்து முன் ஏற்பாட்டின் பேரில் சரியான நேரத்தில் பிக்கப் செய்யப்படுகிறது.",
-    customBaseCityNote: "தொடக்க நகரம் & பகுதி: [தொடக்க நகரம் / பிக்கப் பகுதி உறுதிப்படுத்தப்பட வேண்டும்]. முன்பதிவு விசாரணையின் போது இது உறுதி செய்யப்படும்.",
+    customBaseCityNote: "தொடக்க நகரம் மற்றும் பிரதான மையம்: மதுரை. தங்கும் விடுதி, ரயில் நிலையம் அல்லது பேருந்து நிலைய பிக்கப் வசதி முன் ஏற்பாட்டின் பேரில் மதுரை மற்றும் சுற்றியுள்ள பகுதிகளில் கிடைக்கும்.",
     customFlexibleTitle: "உங்கள் விருப்பப்படி அமைதியான வேகம்",
     customFlexibleDesc: "எந்த அவசரமும் இன்றி உணவருந்தவோ, இயற்கை காட்சிகளை ரசிக்கவோ உங்கள் விருப்பப்படி வண்டியை நிறுத்திக் கொள்ளலாம்.",
 
@@ -487,7 +487,7 @@ const UBESH_TRANSLATIONS = {
     customSubtitle: "हर परिवार की यात्रा आवश्यकता अलग होती है। उबेश ट्रैवल्स आपके समय, रुचि और पसंद के अनुसार पूरी तरह अनुकूलित यात्रा कार्यक्रम तैयार करता है।",
     customPickupTitle: "पूर्व व्यवस्था से पिकअप सुविधा",
     customPickupDesc: "होटल, रेलवे स्टेशन या बस स्टैंड से पूर्व व्यवस्था द्वारा सुविधाजनक पिकअप उपलब्ध है। यात्रा शुरू करने से पहले पिकअप का समय और स्थान पहले ही स्पष्ट कर दिया जाता है।",
-    customBaseCityNote: "आधार शहर व क्षेत्र: [आधार शहर / पिकअप क्षेत्र की पुष्टि की जानी है]। शुरुआती पूछताछ के दौरान कार्यक्षेत्र स्पष्ट किया जाएगा।",
+    customBaseCityNote: "आधार शहर एवं मुख्य केंद्र: मदुरै। होटल, रेलवे स्टेशन या बस स्टैंड से पिकअप की सुविधा पूर्व व्यवस्था द्वारा मदुरै एवं आसपास के क्षेत्रों में उपलब्ध है।",
     customFlexibleTitle: "सहज और संतुलित सफ़र",
     customFlexibleDesc: "बिना किसी हड़बड़ी के चाय-नाश्ते या दर्शनीय स्थलों पर रुकने की पूरी स्वतंत्रता।",
 

@@ -12,10 +12,13 @@ const UBESH_CONFIG = {
   // Formatted for tel: and wa.me links (country code + digits only):
   phoneNumberRaw: "919042482403",
   
-  // 1. Base City and Pickup Area (Configurable):
-  baseCityPlaceholder: "[CONFIRM BASE CITY / PICKUP AREA]",
-  baseCityPlaceholder_TA: "[தொடக்க நகரம் / பிக்கப் பகுதி உறுதிப்படுத்தப்பட வேண்டும்]",
-  baseCityPlaceholder_HI: "[आधार शहर / पिकअप क्षेत्र की पुष्टि की जानी है]",
+  // 1. Confirmed Base City and Pickup Area (Madurai):
+  baseCity: "Madurai",
+  baseCity_TA: "மதுரை",
+  baseCity_HI: "मदुरै",
+  baseCityPlaceholder: "Madurai",
+  baseCityPlaceholder_TA: "மதுரை",
+  baseCityPlaceholder_HI: "मदुरै",
 
   // 2. Confirmed Seaside Temple (Devipattinam Navapashanam Temple):
   seasideTempleName: "Navapashanam Temple (Devipattinam)",

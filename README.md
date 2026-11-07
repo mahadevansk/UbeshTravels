@@ -38,7 +38,7 @@ Available in **தமிழ் (Tamil)**, **English**, and **हिंदी (Hi
    - **Navapashanam Temple (Devipattinam)**: Stop 5 featuring the unique open-sea Navagraha pilgrimage site.
    - **Madurai to Tirupati**: Travel guidance for TTD Special Entry Darshan (SED) slots, queue timing, and highway journey pacing. Clear disclaimer that darshan tickets must be booked through the official TTD portal.
    - **Custom Trips & Pickup**: Custom trips across Tamil Nadu, Kerala, Andhra Pradesh, and Karnataka. Pickup from hotel, railway station, or bus stand by prior arrangement.
-   - **Configurable Base City Placeholder**: Configured as `[CONFIRM BASE CITY / PICKUP AREA]`.
+   - **Confirmed Base City Hub**: Centered in **Madurai**. Doorstep pickup from hotels, railway stations, or bus stands is available across Madurai and surrounding districts by prior arrangement.
 
 5. **Travel Options (Vehicle Fleet)**
    - 4-seater, 7-seater, and 11-seater options presented as **“Availability on request”**.
@@ -129,12 +129,12 @@ phoneNumberDisplay: "+91 90424 82403",
 phoneNumberRaw: "919042482403", // Country code + digits only
 ```
 
-### 2. Confirm Base City & Pickup Area:
-When the base city is decided (e.g., Madurai), update `js/config.js`:
+### 2. Confirmed Base City & Operational Hub:
+Configured in `js/config.js` as **Madurai**:
 ```javascript
-baseCityPlaceholder: "Madurai & Surrounding Districts",
-baseCityPlaceholder_TA: "மதுரை மற்றும் சுற்றியுள்ள பகுதிகள்",
-baseCityPlaceholder_HI: "मदुरै और आसपास का क्षेत्र",
+baseCity: "Madurai",
+baseCity_TA: "மதுரை",
+baseCity_HI: "मदुरै",
 ```
 
 ---
