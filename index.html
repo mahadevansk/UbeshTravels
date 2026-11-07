@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>Ubesh Travels — Personal Travel Service in Tamil Nadu | Founder: Balaji</title>
+  <meta name="description" content="Reliable personal travel service across Tamil Nadu and South India. Thoughtfully planned temple journeys, coastal routes from Madurai to Rameswaram, Tirupati pilgrimage travel, and custom outstation trips with founder Balaji.">
+  <meta name="theme-color" content="#142230">
+
+  <!-- OpenGraph / Social Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ubesh Travels — Your Tamil Nadu journey, planned around you.">
+  <meta property="og:description" content="Personal travel service across Tamil Nadu. Madurai to Rameswaram coastal route, Tirupati darshan trips, and custom outstation travel with founder Balaji.">
+  <meta property="og:image" content="images/pamban-bridge.jpg">
+
+  <!-- Typography: Plus Jakarta Sans, Noto Sans Tamil & Noto Sans Devanagari -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700;800&family=Noto+Sans+Tamil:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Accessible Skip Navigation -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- =========================================================================
+       Site Header: Spacious, Uncrowded & Fully Responsive
+       ========================================================================= -->
+  <header class="site-header" role="banner">
+    <div class="container nav-wrapper">
+      
+      <!-- Brand Identity (Left) -->
+      <a href="#home" class="brand" aria-label="Ubesh Travels - Home">
+        <span class="brand-name">Ubesh Travels</span>
+        <span class="brand-tagline">Balaji • Tamil Nadu</span>
+      </a>
+
+      <!-- Primary Navigation Links (Center) -->
+      <nav id="primary-navigation" class="primary-nav" aria-label="Primary navigation">
+        <ul class="nav-links">
+          <li><a href="#home" data-i18n="navHome">Home</a></li>
+          <li><a href="#rameswaram" data-i18n="navRameswaram">Rameswaram</a></li>
+          <li><a href="#tirupati" data-i18n="navTirupati">Tirupati</a></li>
+          <li><a href="#custom-trips" data-i18n="navCustom">Custom Trips</a></li>
+          <li><a href="#vehicles" data-i18n="navVehicles">Vehicles</a></li>
+          <li><a href="#about" data-i18n="navAbout">About Balaji</a></li>
+          <li><a href="#contact" data-i18n="navContact">Enquiry</a></li>
+          <li class="mobile-nav-cta">
+            <a href="#contact" class="btn btn-primary btn-sm" data-i18n="btnPlanTrip">Plan a Trip</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Language Selector & Header CTA (Right) -->
+      <div class="header-right-controls">
+        
+        <!-- Visible Language Switcher: தமிழ் | English | हिंदी -->
+        <div class="lang-selector-group" role="group" aria-label="Select website language">
+          <button type="button" class="lang-btn" data-lang="ta" aria-label="மாற்றவும் தமிழ் மொழி">தமிழ்</button>
+          <button type="button" class="lang-btn active" data-lang="en" aria-label="Switch to English">English</button>
+          <button type="button" class="lang-btn" data-lang="hi" aria-label="हिंदी भाषा चुनें">हिंदी</button>
+        </div>
+
+        <!-- Header Plan Trip CTA -->
+        <a href="#contact" class="btn btn-primary btn-sm header-cta-btn" data-i18n="btnPlanTrip">Plan a Trip</a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="Toggle navigation menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Backdrop Overlay -->
+  <div id="navBackdrop" class="nav-backdrop" aria-hidden="true"></div>
+
+  <main id="main-content">
+
+    <!-- =========================================================================
+         1. HERO SECTION (Restrained Travel-Editorial Style)
+         ========================================================================= -->
+    <section id="home" class="hero-section">
+      <div class="container hero-grid">
+        
+        <div class="hero-content">
+          <span class="section-overline" data-i18n="heroOverline">Personal Travel Service • Tamil Nadu</span>
+          
+          <h1 class="hero-title" data-i18n="heroHeadline">
+            Your Tamil Nadu journey, planned around you.
+          </h1>
+
+          <p class="hero-lead" data-i18n="heroSubhead">
+            Thoughtfully paced temple visits, quiet coastal drives, and custom outstation travel across South India. Driven with personal care and courteous attention by founder Balaji.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#contact" class="btn btn-primary btn-lg" data-i18n="btnPlanTrip">Plan Your Trip</a>
+            <a href="#" class="btn btn-whatsapp btn-lg cfg-whatsapp-link" data-i18n="btnWhatsApp">WhatsApp Balaji</a>
+            <a href="tel:+919042482403" class="btn btn-outline btn-lg cfg-phone-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+              </svg>
+              <span data-i18n="btnCallNow">Call Balaji</span>
+            </a>
+          </div>
+
+          <div class="hero-key-facts">
+            <div class="fact-item">
+              <span class="fact-dot" aria-hidden="true"></span>
+              <span data-i18n="heroPill1">Custom Route Itineraries</span>
+            </div>
+            <div class="fact-item">
+              <span class="fact-dot" aria-hidden="true"></span>
+              <span data-i18n="heroPill2">Doorstep Pickup by Prior Arrangement</span>
+            </div>
+            <div class="fact-item">
+              <span class="fact-dot" aria-hidden="true"></span>
+              <span data-i18n="heroPill3">Paced for Families &amp; Elders</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Photograph: Iconic Pamban Bridge -->
+        <div class="hero-photo-column">
+          <div class="hero-photo-card">
+            <div class="hero-photo-wrap">
+              <span class="hero-image-badge" data-i18n="heroPhotoBadge">Gateway to Rameswaram</span>
+              <!-- Authentic high-resolution photograph of the iconic Pamban Bridge (CC BY-SA 2.0 by Ashwin Kumar) -->
+              <img src="images/pamban-bridge.jpg" alt="Iconic Pamban Bridge Which Connects Rameswaram Island" data-i18n-alt="heroCaption" width="1920" height="1272" loading="eager">
+            </div>
+            <div class="hero-photo-caption">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="12" y1="16" x2="12" y2="12"/>
+                <line x1="12" y1="8" x2="12.01" y2="8"/>
+              </svg>
+              <span data-i18n="heroCaption">Iconic Pamban Bridge Which Connects Rameswaram Island</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         2. FEATURED ROUTE: MADURAI TO RAMESWARAM
+         Includes Ram + Eswaran Naming Heritage & 5 Sample Stops
+         ========================================================================= -->
+    <section id="rameswaram" class="section-padding">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-overline" data-i18n="rameswaramOverline">Featured Route</span>
+          <h2 class="section-title" data-i18n="rameswaramTitle">Madurai to Rameswaram</h2>
+          <p class="section-subtitle" data-i18n="rameswaramSubtitle">
+            A calm spiritual and coastal journey connecting heritage temple corridors, sacred seaside theerthams, and the windswept tip of Pamban Island.
+          </p>
+        </header>
+
+        <!-- Ram + Eswaran Heritage Callout -->
+        <div class="heritage-story-banner" role="region" aria-label="Rameswaram Heritage">
+          <div class="heritage-header">
+            <span class="heritage-tag" data-i18n="ramEswaranBadge">Sacred Heritage</span>
+            <h3 class="heritage-title" data-i18n="ramEswaranTitle">Ram + Eswaran: The Sacred Name of Rameshwaram</h3>
+          </div>
+          <p class="heritage-text" data-i18n="ramEswaranText">
+            Rameswaram derives its holy name from Ram + Eswaran (Lord of Rama). It is here that Lord Rama consecrated and worshipped Lord Shiva (Ishwara) to seek divine blessings, giving this revered island its timeless name.
+          </p>
+        </div>
+
+        <div class="route-grid">
+
+          <!-- Stop 1: Ramar Padam -->
+          <article class="route-stop-card">
+            <div class="stop-img-container">
+              <span class="stop-index-tag">01 • <span data-i18n="stopPrefix">Stop</span></span>
+              <!-- Genuine photograph: Ramar Padam in Rameswaram (CC BY-SA 4.0 by Athul s r) -->
+              <img src="images/ramar-padam.jpg" alt="Ramar Padam hilltop shrine overlooking Rameswaram island" data-i18n-alt="stop1Alt" width="1200" height="900" loading="lazy">
+            </div>
+            <div class="stop-card-content">
+              <h3 class="stop-card-title" data-i18n="stop1Title">Ramar Padam (Gandhamadhana Parvatham)</h3>
+              <p class="stop-card-desc" data-i18n="stop1Desc">
+                Located on the highest elevation point of Rameswaram island, this serene two-storey shrine encloses the stone footprint of Lord Rama. From the terrace, travellers can enjoy an open panoramic view across coconut palm groves, the town, and the surrounding sea.
+              </p>
+              <div class="stop-card-credit" data-i18n="stop1Credit">Photo: Athul s r (CC BY-SA 4.0 via Wikimedia Commons)</div>
+            </div>
+          </article>
+
+          <!-- Stop 2: Agni Theertham -->
+          <article class="route-stop-card">
+            <div class="stop-img-container">
+              <span class="stop-index-tag">02 • <span data-i18n="stopPrefix">Stop</span></span>
+              <!-- Genuine photograph: Agni Theertham (CC BY-SA 3.0 by S. P. Krishnamoorthy) -->
+              <img src="images/agni-theertham.jpg" alt="Agni Theertham seashore facing the eastern gopuram of Ramanathaswamy Temple" data-i18n-alt="stop2Alt" width="1200" height="900" loading="lazy">
+            </div>
+            <div class="stop-card-content">
+              <h3 class="stop-card-title" data-i18n="stop2Title">Agni Theertham</h3>
+              <p class="stop-card-desc" data-i18n="stop2Desc">
+                The calm sacred sea beach situated directly in front of the eastern tower of Ramanathaswamy Temple. Pilgrims traditionally gather here at daybreak for a ritual sea bath and prayers before proceeding inside the temple complex.
+              </p>
+              <div class="stop-card-credit" data-i18n="stop2Credit">Photo: S. P. Krishnamoorthy (CC BY-SA 3.0 via Wikimedia Commons)</div>
+            </div>
+          </article>
+
+          <!-- Stop 3: Ramanathaswamy Temple -->
+          <article class="route-stop-card">
+            <div class="stop-img-container">
+              <span class="stop-index-tag">03 • <span data-i18n="stopPrefix">Stop</span></span>
+              <!-- Genuine photograph: Ramanathaswamy Temple Corridor (CC BY-SA 3.0 by Sr. / Bernard Gagnon) -->
+              <img src="images/ramanathaswamy-temple.jpg" alt="Carved stone pillar corridor inside Ramanathaswamy Temple in Rameswaram" data-i18n-alt="stop3Alt" width="1200" height="900" loading="lazy">
+            </div>
+            <div class="stop-card-content">
+              <h3 class="stop-card-title" data-i18n="stop3Title">Ramanathaswamy Temple</h3>
+              <p class="stop-card-desc" data-i18n="stop3Desc">
+                A historic Jyotirlinga shrine celebrated for its grand Dravidian architecture, soaring gopurams, and the world-famous outer corridor with over 1,200 intricately sculpted stone pillars. The temple contains 22 sacred interior theerthams bathed in by devotees.
+              </p>
+              <div class="stop-card-credit" data-i18n="stop3Credit">Photo: Bernard Gagnon / Sr. (CC BY-SA 3.0 via Wikimedia Commons)</div>
+            </div>
+          </article>
+
+          <!-- Stop 4: Dhanushkodi and the Old Ruined Town -->
+          <article class="route-stop-card">
+            <div class="stop-img-container">
+              <span class="stop-index-tag">04 • <span data-i18n="stopPrefix">Stop</span></span>
+              <!-- Genuine photograph: Dhanushkodi Ruins (CC BY-SA 3.0 by Thachan.makan) -->
+              <img src="images/dhanushkodi-ruins.jpg" alt="Ruins of the historic church in the ghost town of Dhanushkodi" data-i18n-alt="stop4Alt" width="1200" height="900" loading="lazy">
+            </div>
+            <div class="stop-card-content">
+              <h3 class="stop-card-title" data-i18n="stop4Title">Dhanushkodi and the Old Ruined Town</h3>
+              <p class="stop-card-desc" data-i18n="stop4Desc">
+                Preserved as a quiet coastal ghost town following the 1964 cyclone, Dhanushkodi sits at the southeastern tip of Pamban Island. Visitors can observe the windswept ruins of the railway station and church, continuing along the narrow coastal highway to Arichal Munai, where the Bay of Bengal meets the Indian Ocean.
+              </p>
+              <div class="stop-card-credit" data-i18n="stop4Credit">Photo: Thachan.makan (CC BY-SA 3.0 via Wikimedia Commons)</div>
+            </div>
+          </article>
+
+          <!-- Stop 5: Navapashanam Temple (Devipattinam) -->
+          <article class="route-stop-card">
+            <div class="stop-img-container">
+              <span class="stop-index-tag">05 • <span data-i18n="stopPrefix">Stop</span></span>
+              <!-- Genuine photograph: Navapashanam Temple in Devipattinam (CC BY-SA 4.0 by Rajadurai2016) -->
+              <img src="images/navapashanam-temple.jpg" alt="Navapashanam Navagraha stone pillars set directly in the coastal waters of Devipattinam" data-i18n-alt="stop5Alt" width="1600" height="900" loading="lazy">
+            </div>
+            <div class="stop-card-content">
+              <span class="status-label" style="background: rgba(30, 95, 120, 0.1); color: var(--color-accent-blue); border: 1px solid rgba(30, 95, 120, 0.2);" data-i18n="stop5Badge">Nine Planets in the Sea</span>
+              <h3 class="stop-card-title" data-i18n="stop5Title">Navapashanam Temple (Devipattinam)</h3>
+              <p class="stop-card-desc" data-i18n="stop5Desc">
+                A uniquely revered coastal pilgrimage site located in the coastal village of Devipattinam, about 70 km northwest of Rameswaram. Known as the 'Nine Planets Temple in the Sea', this sacred shrine consists of nine stone pillars installed directly into the shallow waters of the Bay of Bengal. According to the Ramayana, Lord Rama personally installed and worshipped these Navagraha stones to calm planetary influences before embarking to Lanka. Pilgrims take a holy sea bath and circumambulate the submerged deities.
+              </p>
+              <div class="stop-card-credit" data-i18n="stop5Credit">Photo: Rajadurai2016 (CC BY-SA 4.0 via Wikimedia Commons)</div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         3. MADURAI TO TIRUPATI
+         Darshan planning help & Introduction to Tirupati
+         ========================================================================= -->
+    <section id="tirupati" class="section-padding tirupati-panel">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-overline" data-i18n="tirupatiOverline">Pilgrimage Route</span>
+          <h2 class="section-title" data-i18n="tirupatiTitle">Madurai to Tirupati</h2>
+          <p class="section-subtitle" data-i18n="tirupatiSubtitle">
+            Private, comfortable highway travel to Sri Venkateswara Swamy Temple atop the Seven Hills of Tirumala.
+          </p>
+        </header>
+
+        <div class="tirupati-grid">
+          
+          <div class="tirupati-text-content">
+            
+            <!-- Point 1: We will help you to plan the darshan -->
+            <div class="tirupati-point">
+              <h4 data-i18n="tirupatiDarshanTitle">1. Planning your trip and darshan schedule</h4>
+              <p data-i18n="tirupatiDarshanDesc">
+                Balaji works closely with you to plan road departure and rest stops around your pre-booked TTD Special Entry Darshan (SED) slot. We assist with pacing the journey from Madurai, advice on traditional dress codes, luggage handling, and timing so your family can proceed to darshan without rushing.
+              </p>
+            </div>
+
+            <!-- Point 2: About Tirupati and the road journey -->
+            <div class="tirupati-point">
+              <h4 data-i18n="tirupatiAboutTitle">2. About Tirupati &amp; the road journey</h4>
+              <p data-i18n="tirupatiAboutDesc">
+                Perched in the lush Seshachalam hills of Andhra Pradesh, Tirumala is one of India's most visited sacred shrines. The road distance from Madurai is approximately 550 km. We plan the trip with calm highway driving, clean vegetarian food stops, and comfortable refreshment breaks suited for elderly travellers.
+              </p>
+            </div>
+
+            <!-- Explicit, Honest Disclaimer on Temple Tickets -->
+            <div class="tirupati-disclaimer-box" role="note" data-i18n="tirupatiDisclaimer">
+              Notice: Ubesh Travels provides private round-trip transportation and itinerary planning assistance. We do not sell or guarantee temple entry tickets; darshan tickets must be booked directly through the official TTD portal.
+            </div>
+
+            <div>
+              <a href="#contact" class="btn btn-primary" data-i18n="btnPlanTrip">Plan Your Trip</a>
+            </div>
+
+          </div>
+
+          <div class="tirupati-photo-column">
+            <div class="tirupati-photo-frame">
+              <div class="tirupati-photo-wrap">
+                <!-- Genuine photograph: Tirumala Venkateswara Temple (CC BY-SA 3.0 by Adityamadhav83) -->
+                <img src="images/tirumala-temple.jpg" alt="Tirumala Venkateswara Temple nestled in the sacred Eastern Ghats" data-i18n-alt="tirupatiAlt" width="1200" height="900" loading="lazy">
+              </div>
+              <p class="photo-caption" data-i18n="tirupatiCredit">
+                Photo: Adityamadhav83 (CC BY-SA 3.0 via Wikimedia Commons)
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         4. CUSTOM TRIPS & PICKUP
+         Prior arrangement • Configurable base city placeholder
+         ========================================================================= -->
+    <section id="custom-trips" class="section-padding">
+      <div class="container">
+        
+        <div class="custom-card">
+          
+          <div class="custom-card-header">
+            <span class="section-overline" style="color: #ffdcb5;" data-i18n="customOverline">Flexible Outstation Travel</span>
+            <h2 data-i18n="customTitle">Custom Trips &amp; Pickup by Prior Arrangement</h2>
+            <p data-i18n="customSubtitle">
+              Every traveller and family has distinct schedules. Ubesh Travels designs custom itineraries around your requested places, temple timings, and travel pace.
+            </p>
+          </div>
+
+          <div class="custom-features-grid">
+            
+            <div class="custom-feature">
+              <h4 data-i18n="customPickupTitle">Doorstep Pickup by Prior Arrangement</h4>
+              <p data-i18n="customPickupDesc">
+                Pickup from your hotel, railway station, or bus stand can be scheduled by prior arrangement. We confirm your pickup point and exact timing in advance so you start your journey relaxed.
+              </p>
+            </div>
+
+            <div class="custom-feature">
+              <h4 data-i18n="customFlexibleTitle">Travel at Your Own Pace</h4>
+              <p data-i18n="customFlexibleDesc">
+                No rigid itineraries or commercial pressure. Pause for quiet tea breaks, scenic viewpoints, or local dining whenever your group desires.
+              </p>
+            </div>
+
+          </div>
+
+          <!-- Configurable Base City Callout -->
+          <div class="base-city-box" role="note">
+            <strong>Pickup Area Notice:</strong>
+            <span data-i18n="customBaseCityNote">
+              Base City &amp; Operational Area: Configured as <span class="base-city-badge cfg-base-city">[CONFIRM BASE CITY / PICKUP AREA]</span>. Exact service perimeter will be clarified during your initial booking inquiry.
+            </span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         5. TRAVEL OPTIONS (VEHICLES)
+         4-, 7-, 11-seat options as "Availability on request"
+         ========================================================================= -->
+    <section id="vehicles" class="section-padding" style="background-color: var(--bg-panel); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-overline" data-i18n="vehiclesOverline">Fleet &amp; Capacity</span>
+          <h2 class="section-title" data-i18n="vehiclesTitle">Travel Options</h2>
+          <p class="section-subtitle" data-i18n="vehiclesSubtitle">
+            Balaji owns two cars and personally drives these vehicle sizes. All options are offered as availability on request based on your dates and group size.
+          </p>
+        </header>
+
+        <div class="vehicles-grid">
+
+          <!-- 4-Seater -->
+          <article class="vehicle-card">
+            <div class="vehicle-card-top">
+              <h3 class="vehicle-card-title" data-i18n="seat4Title">4-Seat Option</h3>
+              <span class="vehicle-status" data-i18n="seat4Status">Availability on request</span>
+            </div>
+            <p class="vehicle-desc" data-i18n="seat4Desc">
+              Comfortable air-conditioned sedan or hatchback, ideal for 1 to 4 passengers with luggage. Well suited for couples, solo pilgrims, or small families.
+            </p>
+            <div class="vehicle-specs" data-i18n="seat4Specs">
+              1–4 Passengers • AC • Standard Boot Space
+            </div>
+          </article>
+
+          <!-- 7-Seater -->
+          <article class="vehicle-card">
+            <div class="vehicle-card-top">
+              <h3 class="vehicle-card-title" data-i18n="seat7Title">7-Seat Option</h3>
+              <span class="vehicle-status" data-i18n="seat7Status">Availability on request</span>
+            </div>
+            <p class="vehicle-desc" data-i18n="seat7Desc">
+              Spacious multi-utility vehicle (MPV) with generous legroom and luggage space. Suited for joint family temple journeys and outstation travel.
+            </p>
+            <div class="vehicle-specs" data-i18n="seat7Specs">
+              5–7 Passengers • Dual AC • Ample Luggage Room
+            </div>
+          </article>
+
+          <!-- 11-Seater -->
+          <article class="vehicle-card">
+            <div class="vehicle-card-top">
+              <h3 class="vehicle-card-title" data-i18n="seat11Title">11-Seat Option</h3>
+              <span class="vehicle-status" data-i18n="seat11Status">Availability on request</span>
+            </div>
+            <p class="vehicle-desc" data-i18n="seat11Desc">
+              Arranged upon request for larger families or pilgrimage groups traveling together. High-roof comfort, individual seating, and relaxed group travel.
+            </p>
+            <div class="vehicle-specs" data-i18n="seat11Specs">
+              8–11 Passengers • High-Roof AC • Group Seating
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Honest Vehicle Fleet Notice -->
+        <div class="fleet-honest-note" role="note">
+          <strong>Vehicle Availability Policy:</strong>
+          <span data-i18n="vehicleAvailabilityNote">
+            Shown as 'Availability on request'. Balaji operates two dedicated vehicles and coordinates with trusted personal associates if specialized vehicle capacity or additional vehicles are required.
+          </span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         6. PLACES SERVED
+         Tamil Nadu, Kerala, Andhra Pradesh, Karnataka
+         ========================================================================= -->
+    <section id="places" class="section-padding">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-overline" data-i18n="placesOverline">Coverage</span>
+          <h2 class="section-title" data-i18n="placesTitle">Places &amp; States Served</h2>
+          <p class="section-subtitle" data-i18n="placesSubtitle">
+            Custom outstation journey requests are welcome across South India:
+          </p>
+        </header>
+
+        <div class="places-grid">
+
+          <div class="place-card">
+            <h3 class="place-state" data-i18n="placesTN">Tamil Nadu</h3>
+            <p class="place-destinations" data-i18n="placesTNDesc">
+              Madurai, Rameswaram, Kanyakumari, Thanjavur, Tirunelveli, Kodaikanal, Ooty, Chennai, and regional temple circuits.
+            </p>
+          </div>
+
+          <div class="place-card">
+            <h3 class="place-state" data-i18n="placesKL">Kerala</h3>
+            <p class="place-destinations" data-i18n="placesKLDesc">
+              Munnar, Thekkady, Kochi, Trivandrum, Padmanabhaswamy Temple, and Sabarimala routes.
+            </p>
+          </div>
+
+          <div class="place-card">
+            <h3 class="place-state" data-i18n="placesAP">Andhra Pradesh</h3>
+            <p class="place-destinations" data-i18n="placesAPDesc">
+              Tirupati, Tirumala Hills, Srikalahasti, Kanipakam, and border pilgrimage points.
+            </p>
+          </div>
+
+          <div class="place-card">
+            <h3 class="place-state" data-i18n="placesKA">Karnataka</h3>
+            <p class="place-destinations" data-i18n="placesKADesc">
+              Bengaluru, Mysuru, Chamundi Hills, and connecting South Karnataka routes.
+            </p>
+          </div>
+
+        </div>
+
+        <p class="places-disclaimer" data-i18n="placesDisclaimer">
+          Please note: Custom trips across state lines require interstate permit coordination. Routes and availability are subject to prior schedule confirmation.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         7. ABOUT BALAJI & PERSONAL TRAVEL SERVICE
+         ========================================================================= -->
+    <section id="about" class="section-padding about-panel">
+      <div class="container">
+        
+        <div class="about-editorial-card">
+          <div class="about-header">
+            <span class="section-overline" data-i18n="aboutOverline">Founder &amp; Driver</span>
+            <h2 class="about-name" data-i18n="aboutTitle">About Balaji &amp; Ubesh Travels</h2>
+            <div class="about-role" data-i18n="aboutSubtitle">A dedicated personal travel service built on calm driving, punctuality, and straightforward communication.</div>
+          </div>
+
+          <p class="about-text" data-i18n="aboutP1">
+            Hello, I am Balaji. I founded Ubesh Travels to provide clean, respectful, and punctual personal road travel across Tamil Nadu and neighbouring states. Unlike impersonal aggregator platforms where driver identity changes with every ride, I take direct responsibility for your journey from start to finish.
+          </p>
+
+          <p class="about-text" data-i18n="aboutP2">
+            With years of highway experience and familiarity with Tamil Nadu temple customs, route conditions, and family travel requirements, I maintain a steady and patient driving style so that senior citizens and children feel entirely at ease.
+          </p>
+
+          <div class="about-commitments">
+            <div class="commitment-item" data-i18n="aboutPoint1">Courteous, non-smoking, professional driving</div>
+            <div class="commitment-item" data-i18n="aboutPoint2">Clean, well-maintained, air-conditioned cars</div>
+            <div class="commitment-item" data-i18n="aboutPoint3">Strict adherence to safety and family privacy</div>
+            <div class="commitment-item" data-i18n="aboutPoint4">Clear, upfront communication with zero hidden charges</div>
+          </div>
+
+          <div style="margin-top: 24px;">
+            <a href="tel:+919042482403" class="btn btn-primary cfg-phone-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+              </svg>
+              <span data-i18n="btnCallNow">Call Balaji</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         8. BOOKING ENQUIRY FORM & DIRECT CONTACT
+         Static form -> Deep-links to WhatsApp with all entered details
+         ========================================================================= -->
+    <section id="contact" class="section-padding">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-overline" data-i18n="enquiryOverline">Plan Your Journey</span>
+          <h2 class="section-title" data-i18n="enquiryTitle">Trip Booking Enquiry</h2>
+          <p class="section-subtitle" data-i18n="enquirySubtitle">
+            Fill in your travel details below. Submitting will validate your information and immediately open a pre-filled WhatsApp enquiry message directly to Balaji.
+          </p>
+        </header>
+
+        <div class="contact-layout">
+          
+          <!-- Static Enquiry Form -->
+          <div class="enquiry-form-wrapper">
+            
+            <div id="formFeedback" class="form-feedback" role="alert" aria-live="polite"></div>
+
+            <form id="enquiryForm" action="#" method="GET" novalidate>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name" class="form-label">
+                    <span data-i18n="formName">Your Full Name</span> <span class="req">*</span>
+                  </label>
+                  <input type="text" id="name" name="name" class="form-control" required placeholder="e.g., Sundar Rajan" data-i18n-placeholder="formNamePlaceholder">
+                </div>
+
+                <div class="form-group">
+                  <label for="phone" class="form-label">
+                    <span data-i18n="formPhone">Mobile Number</span> <span class="req">*</span>
+                  </label>
+                  <input type="tel" id="phone" name="phone" class="form-control" required placeholder="e.g., 9876543210" data-i18n-placeholder="formPhonePlaceholder">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="start" class="form-label">
+                    <span data-i18n="formStart">Starting / Pickup Point</span> <span class="req">*</span>
+                  </label>
+                  <input type="text" id="start" name="start" class="form-control" required placeholder="e.g., Hotel in Madurai / Madurai Junction" data-i18n-placeholder="formStartPlaceholder">
+                </div>
+
+                <div class="form-group">
+                  <label for="dest" class="form-label">
+                    <span data-i18n="formDest">Destination / Desired Route</span> <span class="req">*</span>
+                  </label>
+                  <input type="text" id="dest" name="dest" class="form-control" required placeholder="e.g., Rameswaram & Dhanushkodi / Tirupati" data-i18n-placeholder="formDestPlaceholder">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="date" class="form-label">
+                    <span data-i18n="formDate">Travel Date</span> <span class="req">*</span>
+                  </label>
+                  <input type="date" id="date" name="date" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="passengers" class="form-label" data-i18n="formPassengers">Number of Passengers</label>
+                  <input type="text" id="passengers" name="passengers" class="form-control" placeholder="e.g., 4 passengers" data-i18n-placeholder="formPassengersPlaceholder">
+                </div>
+              </div>
+
+              <div class="form-group full-width">
+                <label for="seatSize" class="form-label" data-i18n="formSeatSize">Preferred Seat Size</label>
+                <select id="seatSize" name="seatSize" class="form-control">
+                  <option value="" data-i18n="formSeatSizeSelect">Select vehicle option</option>
+                  <option value="4-Seat Vehicle (Sedan / Hatchback)" data-i18n="formSeatSize4">4-Seat Vehicle (Sedan / Hatchback)</option>
+                  <option value="7-Seat Vehicle (Spacious MPV)" data-i18n="formSeatSize7">7-Seat Vehicle (Spacious MPV)</option>
+                  <option value="11-Seat Vehicle (Group Van)" data-i18n="formSeatSize11">11-Seat Vehicle (Group Van)</option>
+                  <option value="Not sure / Recommend best option" data-i18n="formSeatSizeUnsure">Not sure / Recommend best option</option>
+                </select>
+              </div>
+
+              <div class="form-group full-width">
+                <label for="notes" class="form-label" data-i18n="formNotes">Trip Notes &amp; Special Requests</label>
+                <textarea id="notes" name="notes" rows="3" class="form-control" placeholder="Elderly passengers traveling, specific darshan slots, luggage requirements, or preferred halt stops..." data-i18n-placeholder="formNotesPlaceholder"></textarea>
+              </div>
+
+              <div class="form-actions">
+                <button type="submit" class="btn btn-whatsapp btn-lg" style="flex: 1;">
+                  <span data-i18n="formSubmit">Send Trip Enquiry via WhatsApp</span>
+                </button>
+                <button type="reset" class="btn btn-outline" data-i18n="formReset">Clear Form</button>
+              </div>
+
+              <p class="form-note" data-i18n="formPrivacyNote">
+                Static site: No details are stored on a database. Submitting opens WhatsApp directly with your entered details pre-filled.
+              </p>
+
+            </form>
+          </div>
+
+          <!-- Direct Contact Column -->
+          <div class="direct-contact-box">
+            <div>
+              <h3 data-i18n="contactDirectTitle">Direct Contact</h3>
+              <p data-i18n="contactDirectDesc">
+                If you prefer to speak directly or have immediate questions, feel free to call or WhatsApp Balaji.
+              </p>
+
+              <div class="direct-channels-list">
+                
+                <!-- Phone -->
+                <a href="tel:+919042482403" class="channel-link cfg-phone-link">
+                  <span class="channel-tag" data-i18n="contactPhoneLabel">Direct Phone</span>
+                  <span class="channel-value cfg-phone-display">+91 90424 82403</span>
+                </a>
+
+                <!-- WhatsApp -->
+                <a href="https://wa.me/919042482403" target="_blank" rel="noopener noreferrer" class="channel-link wa-accent cfg-whatsapp-link">
+                  <span class="channel-tag" data-i18n="contactWhatsAppLabel">WhatsApp Message</span>
+                  <span class="channel-value">+91 90424 82403</span>
+                </a>
+
+              </div>
+            </div>
+
+            <div class="direct-hours-note">
+              <p><strong><span data-i18n="contactBaseCityLabel">Base City &amp; Pickup</span>:</strong> <span class="cfg-base-city">[CONFIRM BASE CITY / PICKUP AREA]</span></p>
+              <p style="margin-top: 6px;"><strong><span data-i18n="contactHoursLabel">Hours</span>:</strong> <span data-i18n="contactHoursValue">6:00 AM – 10:00 PM (Daily)</span></p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h4 data-i18n="footerBrand">Ubesh Travels</h4>
+          <p data-i18n="footerTagline">Personalized travel service and sacred temple routes across Tamil Nadu and South India.</p>
+          <span class="footer-founder-tag" data-i18n="footerFounder">Founder &amp; Dedicated Driver: Balaji</span>
+        </div>
+
+        <div class="footer-contact-block">
+          <p data-i18n="footerPhone">Contact: +91 90424 82403</p>
+          <a href="tel:+919042482403" class="footer-contact-phone cfg-phone-link cfg-phone-display">+91 90424 82403</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; <span id="currentYear">2026</span> <span data-i18n="footerRights">Ubesh Travels. Open Source under the MIT License.</span>
+        </p>
+        <p>
+          <a href="LICENSE" target="_blank" class="footer-attribution-link" data-i18n="footerLicense">MIT License (Open Source)</a> • 
+          <a href="ASSET_SOURCES.md" target="_blank" class="footer-attribution-link" data-i18n="footerAttributionLink">Photo Sources &amp; Attributions (ASSET_SOURCES.md)</a>
+        </p>
+        <p data-i18n="footerDisclaimer">
+          Vehicle options and routes are subject to prior schedule confirmation. No unauthorized warranties or third-party bookings are implied.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       STICKY BOTTOM MOBILE ACTION BAR (For phones)
+       ========================================================================= -->
+  <div class="mobile-sticky-bar" aria-label="Quick contact actions">
+    <div class="mobile-sticky-inner">
+      <a href="#" class="btn btn-whatsapp btn-sm cfg-whatsapp-link" data-i18n="btnWhatsApp">
+        WhatsApp Balaji
+      </a>
+      <a href="tel:+919042482403" class="btn btn-primary btn-sm cfg-phone-link" data-i18n="btnCallNow">
+        Call Balaji
+      </a>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/config.js"></script>
+  <script src="js/translations.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    const yearEl = document.getElementById("currentYear");
+    if (yearEl) {
+      yearEl.textContent = new Date().getFullYear();
+    }
+  </script>
+</body>
+</html>
