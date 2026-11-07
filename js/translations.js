@@ -34,8 +34,8 @@ const UBESH_TRANSLATIONS = {
 
     // Ram + Eswaran Naming Story
     ramEswaranBadge: "Sacred Heritage",
-    ramEswaranTitle: "Ram + Eswaran: The Sacred Name of Rameshwaram",
-    ramEswaranText: "Rameswaram derives its holy name from Ram + Eswaran (Lord of Rama). It is here that Lord Rama consecrated and worshipped Lord Shiva (Ishwara) to seek divine blessings, giving this revered island its timeless name.",
+    ramEswaranTitle: "The Sacred Name of Rameshwaram (Rama + Ishwara)",
+    ramEswaranText: "The name Rameshwar is of Indian origin, derived from the Sanskrit language. It is a compound of two elements: \"Rama,\" referring to Lord Rama, a major deity in Hinduism, and \"Ishwar,\" which translates to \"God\" or \"Lord.\" Therefore, Rameshwar can be interpreted as \"Lord Rama\" or \"God of Rama.\" The name is commonly used in various forms across different regions in India, reflecting the cultural and religious significance associated with Lord Rama.",
 
     // Featured Route 1: Madurai to Rameswaram
     rameswaramOverline: "Featured Route",
@@ -229,9 +229,9 @@ const UBESH_TRANSLATIONS = {
     heroPhotoBadge: "ராமேஸ்வரத்தின் நுழைவு வாயில்",
 
     // Ram + Eswaran Naming Story
-    ramEswaranBadge: "புனித வரலாறு",
-    ramEswaranTitle: "ராமேஸ்வரம் பெயர்க்காரணம் (ராமர் + ஈஸ்வரன்)",
-    ramEswaranText: "ராமர் + ஈஸ்வரன் = ராமேஸ்வரம். ராமாயண காவியத்தின்படி, சிவபெருமானை (ஈஸ்வரனை) ஸ்ரீராமர் லிங்கம் அமைத்து வழிபட்ட புண்ணிய பூமி என்பதால், இத்தீவு 'ராமேஸ்வரம்' என்ற புனிதப் பெயரைப் பெற்றது.",
+    ramEswaranBadge: "புனிதப் பெயர்க் காரணம்",
+    ramEswaranTitle: "ராமேஸ்வரம் திருநாம விளக்கம் (ராமர் + ஈஸ்வரன்)",
+    ramEswaranText: "ராமேஸ்வரம் என்ற திருநாமம் இந்தியப் பூர்வீகத்தைக் கொண்டது மற்றும் சமஸ்கிருத மொழியிலிருந்து உருவானதாகும். இது இரண்டு கூறுகளின் புனிதச் சேர்க்கையாகும்: 'ராமர்' (இந்து மதத்தின் முழுமுதற் கடவுளான ஸ்ரீராமர்) மற்றும் 'ஈஸ்வரன்' (கடவுள் அல்லது இறைவன்). எனவே, இராமேஸ்வரம் என்பது 'ராமரின் இறைவன்' (ஸ்ரீராமர் வழிபட்ட சிவபெருமான்) அல்லது 'இறைவனாகிய ராமர்' என்று பொருள்படும். ஸ்ரீராமரின் ஆன்மீக மற்றும் கலாச்சார முக்கியத்துவத்தைப் பறைசாற்றும் வகையில், இந்நாமம் இந்தியா முழுவதும் பல்வேறு வடிவங்களில் பக்தியுடன் வழங்கப்படுகிறது.",
 
     // Featured Route 1: Madurai to Rameswaram
     rameswaramOverline: "மாதிரிப் பயணப் பாதை",
@@ -425,9 +425,9 @@ const UBESH_TRANSLATIONS = {
     heroPhotoBadge: "रामेश्वरम का प्रवेश द्वार",
 
     // Ram + Eswaran Naming Story
-    ramEswaranBadge: "पावन इतिहास",
+    ramEswaranBadge: "पावन नामकरण का रहस्य",
     ramEswaranTitle: "रामेश्वरम नाम की उत्पत्ति (राम + ईश्वर)",
-    ramEswaranText: "राम + ईश्वर = रामेश्वरम। पावन रामायण गाथा के अनुसार, भगवान श्री राम ने यहां भगवान शिव (ईश्वर) की स्थापना कर पूजा-अर्चना की थी। इसी कारण इस पावन तीर्थ द्वीप का नाम 'रामेश्वरम' पड़ा।",
+    ramEswaranText: "रामेश्वर नाम भारतीय मूल का है, जो संस्कृत भाषा से व्युत्पन्न है। यह दो तत्वों का पावन यौगिक है: 'राम' (हिंदू धर्म के प्रमुख आराध्य भगवान श्रीराम) और 'ईश्वर' (भगवान अथवा स्वामी)। अतः रामेश्वर का अर्थ 'राम के ईश्वर' (भगवान शिव, जिनकी श्रीराम ने आराधना की) अथवा 'स्वयं प्रभु राम' है। यह नाम संपूर्ण भारत के विभिन्न क्षेत्रों में भक्तिभाव से प्रयोग किया जाता है, जो भगवान श्रीराम से जुड़े गहन सांस्कृतिक और धार्मिक महत्व को दर्शाता है।",
 
     // Featured Route 1: Madurai to Rameswaram
     rameswaramOverline: "प्रमुख यात्रा मार्ग",
