@@ -739,15 +739,12 @@ textarea:focus-visible {
   font-size: 0.94rem;
   color: var(--text-secondary);
   line-height: 1.65;
-  margin-bottom: 14px;
+  margin-bottom: 0;
   flex-grow: 1;
 }
 
 .stop-card-credit {
-  font-size: 0.74rem;
-  color: var(--text-muted);
-  border-top: 1px solid var(--border-subtle);
-  padding-top: 10px;
+  display: none;
 }
 
 /* Stop 5 Placeholder Card */

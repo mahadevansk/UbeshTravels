@@ -79,7 +79,7 @@ const UBESH_TRANSLATIONS = {
     tirupatiTitle: "Madurai to Tirupati",
     tirupatiSubtitle: "Private, comfortable highway travel to Sri Venkateswara Swamy Temple atop the Seven Hills of Tirumala.",
     tirupatiAlt: "Tirumala Venkateswara Temple nestled in the sacred Eastern Ghats",
-    tirupatiCredit: "Photo: Adityamadhav83 (CC BY-SA 3.0 via Wikimedia Commons)",
+    tirupatiCaption: "Sri Venkateswara Swamy Temple atop the Sacred Seven Hills of Tirumala",
     
     tirupatiDarshanTitle: "1. Planning your trip and darshan schedule",
     tirupatiDarshanDesc: "Balaji works closely with you to plan road departure and rest stops around your pre-booked TTD Special Entry Darshan (SED) slot. We assist with pacing the journey from Madurai, advice on traditional dress codes, luggage handling, and timing so your family can proceed to darshan without rushing.",
@@ -275,7 +275,7 @@ const UBESH_TRANSLATIONS = {
     tirupatiTitle: "மதுரை முதல் திருப்பதி வரை",
     tirupatiSubtitle: "ஏழுமலையான் அருள்பாலிக்கும் திருப்பதி திருமலைக்கு பாதுகாப்பான, அமைதியான தனிநபர் சாலைப் பயணம்.",
     tirupatiAlt: "சேஷாசலம் மலைத்தொடரில் அமைந்துள்ள திருப்பதி திருமலை திருக்கோவில் தோற்றம்",
-    tirupatiCredit: "புகைப்படம்: ஆதித்யமாதவ்83 (CC BY-SA 3.0 via Wikimedia Commons)",
+    tirupatiCaption: "ஏழுமலையான் வீற்றிருக்கும் திருப்பதி திருமலை திருக்கோவில்",
     
     tirupatiDarshanTitle: "1. தரிசன நேரத்திற்கு ஏற்ப பயணத்தைத் திட்டமிடுதல்",
     tirupatiDarshanDesc: "நீங்கள் முன்பதிவு செய்துள்ள திருமலை சிறப்பு நுழைவு தரிசன (SED) நேரத்திற்கு ஏற்ப பயண நேரத்தை பாலாஜி சரியாக திட்டமிடுகிறார். பாரம்பரிய ஆடை முறைகள், வரிசை நேரங்கள் மற்றும் லட்டு பிரசாதம் பெறும் நடைமுறைகளுக்கு முன்கூட்டியே வழிகாட்டுகிறார்.",
@@ -471,7 +471,7 @@ const UBESH_TRANSLATIONS = {
     tirupatiTitle: "मदुरै से तिरुपति तीर्थ यात्रा",
     tirupatiSubtitle: "पवित्र तिरुमाला की सप्त पहाड़ियों पर स्थित श्री वेंकटेश्वर स्वामी मंदिर के दर्शन के लिए आरामदायक व सुरक्षित निजी यात्रा।",
     tirupatiAlt: "सुरम्य शेषाचलम पहाड़ियों में स्थित तिरुमाला वेंकटेश्वर मंदिर का दृश्य",
-    tirupatiCredit: "फोटो: आदित्यमाधव83 (CC BY-SA 3.0 via Wikimedia Commons)",
+    tirupatiCaption: "सप्तगिरि पर स्थित भगवान श्री वेंकटेश्वर स्वामी मंदिर, तिरुमला",
     
     tirupatiDarshanTitle: "1. दर्शन और यात्रा कार्यक्रम की योजना",
     tirupatiDarshanDesc: "बालाजी आपके पूर्व-बुक किए गए TTD विशेष प्रवेश दर्शन (SED) समय स्लॉट के अनुसार रवानगी और ठहराव का उपयुक्त समय निर्धारित करने में मार्गदर्शन करते हैं। पारंपरिक पोशाक नियम और कतार प्रबंधन की जानकारी दी जाती है।",
