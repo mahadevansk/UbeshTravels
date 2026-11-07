@@ -34,7 +34,7 @@ Available in **தமிழ் (Tamil)**, **English**, and **हिंदी (Hi
    - 100% of visible interface text, route guides, form labels, validation errors, and WhatsApp messages are translated.
 
 4. **Trip Routes & Heritage Story**
-   - **Madurai to Rameswaram**: Detailed 5-stop route including the sacred Sanskrit naming origin of Rameshwaram (*compound of "Rama" and "Ishwar" = "Lord of Rama"*).
+   - **Madurai to Rameswaram**: Detailed 5-stop route including the sacred heritage origin (*"The holy dwelling site where Ram worshipped Easwar"*).
    - **Navapashanam Temple (Devipattinam)**: Stop 5 featuring the unique open-sea Navagraha pilgrimage site.
    - **Madurai to Tirupati**: Travel guidance for TTD Special Entry Darshan (SED) slots, queue timing, and highway journey pacing. Clear disclaimer that darshan tickets must be booked through the official TTD portal.
    - **Custom Trips & Pickup**: Custom trips across Tamil Nadu, Kerala, Andhra Pradesh, and Karnataka. Pickup from hotel, railway station, or bus stand by prior arrangement.
